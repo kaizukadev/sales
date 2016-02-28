@@ -9,7 +9,7 @@ public class conecta {
 			sessao = HibernateUtil.getSession().openSession();
 			System.out.println("Conectou!");
 			
-		}finally{
+		} finally {
 			sessao.close();
 			System.out.println("Fechou conexão!");
 			
